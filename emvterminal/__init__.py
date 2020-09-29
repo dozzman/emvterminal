@@ -1,5 +1,4 @@
-from emv import EMV
-from emv import *
+from emvframework.emv import EMV
 
 class Terminal(EMV):
 
