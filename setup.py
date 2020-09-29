@@ -18,6 +18,9 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    install_requires=[
+        'emv-framework @ git+https://github.com/dozzman/emv-framework@master'
+    ],
     python_requires='>=3.6',
 )
 
