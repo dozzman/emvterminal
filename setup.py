@@ -19,7 +19,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        'emv-framework @ git+https://github.com/dozzman/emv-framework@master'
+        'emvframework @ git+https://github.com/dozzman/emv-framework@master'
     ],
     python_requires='>=3.6',
 )
